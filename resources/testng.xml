@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test"> 
+    <classes>
+      <class name="hp.Seals.APITest.IsPrinterEntitledApi_DBTest"/>
+      <class name="hp.Seals.getErrorEventsApiVsDbTest.ErrorEventsApiDbTest"/>
+      <class name="hp.Seals.APITest.ObligationsApiDBTest"/>  
+       <class name="hp.Seals.APITest.PrinterStatusHistoryApi_DBTest"/> 
+      <class name="hp.Seals.APITest.MaintenanceEventsApiDbTest"/>
+      
+      <class name="hp.Seals.hp.Seals.PrintheadDetailsApiDbTest.PrintheadDetailsAPIvsDBTest"/>
+      <class name="hp.Seals.MaintenanceTasksApiWithDb.MaintenanceTasksAPIvsDBTest_Copy"/>
+      
+      <class name="hp.Seals.APITest.SolutionApiDBTest"/>   
+      
+      
+    </classes>
+  </test> 
+</suite> 

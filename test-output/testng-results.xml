@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42557" started-at="2021-04-28T15:20:33Z" finished-at="2021-04-28T15:21:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42557" started-at="2021-04-28T15:20:33Z" finished-at="2021-04-28T15:21:15Z">
+      <class name="hp.Seals.GetSolutionApiVsDB.GetSolutionAPIvsDBTest">
+        <test-method status="PASS" signature="readExcel()[pri:0, instance:hp.Seals.GetSolutionApiVsDB.GetSolutionAPIvsDBTest@61d47554]" name="readExcel" is-config="true" duration-ms="2885" started-at="2021-04-28T15:20:33Z" finished-at="2021-04-28T15:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcel -->
+        <test-method status="PASS" signature="baseTest()[pri:0, instance:hp.Seals.GetSolutionApiVsDB.GetSolutionAPIvsDBTest@61d47554]" name="baseTest" is-config="true" duration-ms="3171" started-at="2021-04-28T15:20:36Z" finished-at="2021-04-28T15:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="TC_compareEventCodeAndUpdateTSFromApiWithDB()[pri:0, instance:hp.Seals.GetSolutionApiVsDB.GetSolutionAPIvsDBTest@61d47554]" name="TC_compareEventCodeAndUpdateTSFromApiWithDB" duration-ms="21208" started-at="2021-04-28T15:20:39Z" finished-at="2021-04-28T15:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_compareEventCodeAndUpdateTSFromApiWithDB -->
+        <test-method status="PASS" signature="TC_compareSeverityValueFromApiWithDB()[pri:0, instance:hp.Seals.GetSolutionApiVsDB.GetSolutionAPIvsDBTest@61d47554]" name="TC_compareSeverityValueFromApiWithDB" duration-ms="7479" started-at="2021-04-28T15:21:00Z" finished-at="2021-04-28T15:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_compareSeverityValueFromApiWithDB -->
+        <test-method status="PASS" signature="TC_compareShortDescriptionValueFromApiWithDB()[pri:0, instance:hp.Seals.GetSolutionApiVsDB.GetSolutionAPIvsDBTest@61d47554]" name="TC_compareShortDescriptionValueFromApiWithDB" duration-ms="7392" started-at="2021-04-28T15:21:08Z" finished-at="2021-04-28T15:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_compareShortDescriptionValueFromApiWithDB -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:hp.Seals.GetSolutionApiVsDB.GetSolutionAPIvsDBTest@61d47554]" name="TearDown" is-config="true" duration-ms="2" started-at="2021-04-28T15:21:15Z" finished-at="2021-04-28T15:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- hp.Seals.GetSolutionApiVsDB.GetSolutionAPIvsDBTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
